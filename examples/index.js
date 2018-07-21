@@ -1,3 +1,5 @@
-const logger = require('./logger')
+import Pessoa from "./pessoa";
 
-logger.info('Usando o padrão CommoJS')
+const pessoa = new Pessoa("Roberval")
+console.log(pessoa.toString())
+pessoa.changeName("Daniel")
