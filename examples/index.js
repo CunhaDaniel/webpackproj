@@ -1,1 +1,3 @@
-console.log("Deu certo!!")
+const logger = require('./logger')
+
+logger.info('Usando o padrão CommoJS')
